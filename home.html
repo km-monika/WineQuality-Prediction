@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iamjyoti</title>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+
+<body text="white" >
+<style>
+body{
+background-image:url("/static/1280.jpeg");
+}
+</style>
+<div>
+<h1><hr><center> Wine Quality Check </center><hr></h1>
+<form name='passdata' action='.' method="post">
+<center><label for="fixed"><h3><br>Fixed Acidity<br><h3></label>
+<input type="number" name="fixed_acidity" placeholder="range from 2 to 18" min="2" max="18" step="0.01" style="width:15em">
+<label for="fixed"><br>Volatile Acidity<br></label>
+<input type="number" name="volatile_acidity" placeholder="range from 0 to 3" min="0" max="3" step="0.01"  style="width:15em">
+<br>Citric Acid<br>
+<input type="number" name="citric_acid" placeholder="range from 0 to 3" min="0" max="3" step="0.01"  style="width:15em">
+<br>Residual Sugar<br>
+<input type="number" name="residual_sugar" placeholder="range from 0 to 18" min="0" max="18" step="0.01"  style="width:15em">
+<br>Chlorides<br>
+<input type="number" name="chlorides" placeholder="range from 0 to 3" min="0" max="3" step="0.01" style="width:15em">
+<br>Free sulfur dioxide<br>
+<input type="number" name="free_sulfur_dioxide" placeholder="range from 1 to 80" min="1" max="80" step="0.01"  style="width:15em">
+<br>Total sulfur dioxide<br>
+<input type="number" name="total_sulfur_dioxide" placeholder="range from 0 to 300" min="0" max="300" step="0.01"  style="width:15em"> 
+<br>Density<br>
+<input type="number" name="density" placeholder="range from 0 to 2" min="0" max="2" step="0.01"  style="width:15em">
+<br>pH<br>
+<input type="number" name="pH" placeholder="range from 2 to 18" min="2" max="18" step="0.01"  style="width:15em">
+<br>Sulphates<br>
+<input type="number" name="sulphates" placeholder="range from 0 to 4" min="0" max="4" step="0.01"  style="width:15em">
+<br>Alcohol<br>
+<input type="number" name="alcohol" placeholder="range from 0 to 50" min="0" max="50" step="0.01"  style="width:15em">
+<br><br>
+<center><input type="submit" value="Submit" style="height:30px; width:100px;">
+<input type="reset" style="height:30px; width:100px;"></center>
+</center>
+</form>
+<center><p> Using the inputs here and machine learning algorithm the results are being predicted</p></center>
+
+</div>
+	
+</body>
+</html>
